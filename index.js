@@ -14,6 +14,10 @@ const response = {
 	alphabets: []
 }
 
+app.get('/',(req,res)=>{
+	return res.send(hi);
+})
+
 app.post('/bfhl', (req, res) => {
 	for (let i = 0; i < req.body.length; i++) {
 		if (typeof req.body[i] === 'number') {
