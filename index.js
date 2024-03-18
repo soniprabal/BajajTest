@@ -15,7 +15,7 @@ const response = {
 }
 
 app.get('/',(req,res)=>{
-	return res.send(hi);
+	return res.send('hi);
 })
 
 app.post('/bfhl', (req, res) => {
